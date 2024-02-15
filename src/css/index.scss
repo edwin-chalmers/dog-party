@@ -10,6 +10,15 @@
   border: $border-width solid $main-accent-color;
 }
 
+@mixin clear-button() {
+  border: none;
+  background-color: none;
+  color: white;
+  background: none;
+  font-size: large;
+  font-weight: 600;
+}
+
 * {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -52,13 +61,15 @@ nav {
 }
 
 .nav-button {
-  border: none;
-  background: none;
-  color: white;
-  font-weight: 600;
-  font-size: large;
+  @include clear-button();
   margin-left: 20px;
 }
+
+footer button {
+  @include clear-button();
+  text-decoration: underline;
+}
+
 
 .right-button-margin {
   margin-right: 35px
@@ -121,12 +132,16 @@ footer {
   height: 204px;
 }
 
-footer button {
-  color: white;
-  background-color: none;
-  border: none;
-  background: none;
-  color: white;
+footer p {
   font-size: large;
+  color: white
+}
+
+footer img {
+  margin: 25px 25px;
+}
+
+footer button {
+  @include clear-button();
   text-decoration: underline;
 }
