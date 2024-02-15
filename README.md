@@ -1,25 +1,18 @@
-# Static Comp Challenge - Frontend Module 2
+# Dog Party Static Comp
 
-## Project Spec  
-[https://frontend.turing.edu/projects/M2-static-comp-challenge.html](https://frontend.turing.edu/projects/M2-static-comp-challenge.html)
+Check it out [here!](https://edwin-chalmers.github.io/dog-party/)
 
-## Setup
-1. Fork + clone down this repo
-1. `cd` into the directory
-1. Install the library dependencies with `npm install`
-1. To verify that it is setup correctly, run `npm start` in your terminal. Go to `http://localhost:8080/` and you should see a page with the Turing logo image and a beautiful gradient background. If that's the case, you're good to go.
-2. Enter `control + c` in your terminal to stop the server at any time.
+## About
+In the Static Comp Challenge, my goal is to fine-tune my HTML and SCSS skills by replicating a provided design with the utmost precision. I'm given a strict four-hour limit to ensure that I focus intensely on matching every aspect of the original design, from layout and spacing to font, imagery, and color. TThis project is purely about static accuracy, without the need for responsiveness or JavaScript functionality. This challenge simulates a real-world scenario where adhering to a design team's specifications is crucial, emphasizing the importance of detail-oriented development in my coding journey.
 
-## Specification
+## Tech
 
-This static comp challenge will keep you exercising that HTML/SCSS muscle. :muscle: You will be asked to recreate the image below by recreating the screenshot using HTML and SCSS.
+  - HTML
+  - SCSS
+  - Webpack
 
-In other static comp challenges (but not this one), we'll give you a bit of flexibility, however the objective is to build something that **very closely** represents the original design.
+## Screenshots
+<img width="595" alt="image" src="https://github.com/edwin-chalmers/dog-party/assets/149631946/2874d87e-c0c1-405d-88bf-515ef16287a6">
 
-Once you get into the workforce, building out comps that reflect the designer's choice in layout, spacing, font, imagery, and color to the smallest detail, is a requirement.
-
-## The Challenge
-
-Your challenge is to recreate the following image using HTML and SCSS. You've been given some initial files to get started that you must use.
-
-![this](dog-party-spec.png).
+## Contributors
+- Edwin Chalmers : edwinchalmers@gmail.com : [github.com/edwin-chalmers](https://github.com/edwin-chalmers)
